@@ -48,6 +48,9 @@ public class sideQuest {
         if(type != difficulty.EXPERT) {
             rewardAvailable = false;
         }
+        if (type == difficulty.EXPERT) {
+            rewardAvailable = true;
+        }
         return rewardAvailable;
     }
 

@@ -2,14 +2,13 @@ package com.company;
 
 public class adventureGear {
 
-
     private String name;
-    private String type;
+    private int weight;
 
-    public adventureGear(String name, String type) {
+    public adventureGear(String name, int weight) {
 
         this.name = name;
-        this.type = type;
+        this.weight = weight;
     }
 
     public String getName() {
@@ -20,11 +19,12 @@ public class adventureGear {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public int getWeight() {
+        return weight;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
+
 }
